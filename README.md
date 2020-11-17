@@ -17,6 +17,7 @@ According the the Multiple Clock Theory, we measure time in several different wa
 
 Each clock can be bounded by a constant, which can be refined during model run-time. 
 
+![cgraph](https://github.com/atomdog/causalmodel/blob/main/g.png)
 
 
 
