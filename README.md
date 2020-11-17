@@ -1,6 +1,6 @@
 # causalmodel
 
-All states can be described as either:c
+All states can be described as either:
 * Actions (Originate from within the self) -> Can be triggered to manipulate current state position
 * Stimuli (Observations, interactions, changes in sensor value) -> Cannot be triggered by the model
 
