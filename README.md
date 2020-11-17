@@ -22,7 +22,7 @@ Each clock can be bounded by a constant, to be refined during model run-time. We
 
 Here is a depiction of what the graph may look like, with the squares being the set of clocks, and circles being states.
 
-Given the nature of the graph we've built so far, it would be simple to implement a simple Markov chain to gain a sense, probabilistically, of how one state may lead to another, in a manner true to a human's coginition. 
+Given the nature of the graph built so far, it would be simple to implement a simple Markov chain to gain a sense, probabilistically, of how one state may lead to another, in a manner true to a human's coginition. 
 
 We can define a transition matrix, <i>T</i>, where rather than every entry being a singular probability, every entry is a vector <i>t</i>, which is composed of the four values of the clock, and perform any standard Markov processes.
 
