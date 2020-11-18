@@ -31,7 +31,7 @@ However, the model can also trigger any action state from the current stimuli st
 Here is where this breaks down. It seems difficult to implement conditional probability via the transition matrix. 
 
 Sources: 
-<i>I Am A Strange Loop </i> Douglas Hofstadter 
-<i>The Physics and Neuroscience of Time</i> Dean Buonomano
-<i>The Society of the Mind</i> Minsky
+<i>I Am A Strange Loop </i> Douglas Hofstadter \n
+<i>The Physics and Neuroscience of Time</i> Dean Buonomano \n
+<i>The Society of the Mind</i> Minsky \n
 
