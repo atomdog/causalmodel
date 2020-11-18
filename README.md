@@ -29,3 +29,9 @@ We can define a transition matrix, <i>T</i>, where rather than every entry being
 However, the model can also trigger any action state from the current stimuli state, if given the current observation state, taking that action results in an increased probability of a reward state.
 
 Here is where this breaks down. It seems difficult to implement conditional probability via the transition matrix. 
+
+Sources: 
+<i>I Am A Strange Loop </i> Douglas Hofstadter 
+<i>The Physics and Neuroscience of Time</i> Dean Buonomano
+<i>The Society of the Mind</i> Minsky
+
