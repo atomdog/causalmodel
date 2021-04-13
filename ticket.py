@@ -9,8 +9,38 @@ class queues:
         self.short = []
         self.mid = []
         self.long = []
-    def get_current():
+        self.vlong = []
+    def validate(self, id):
         pass
+    def state_trig(self, id):
+        #check to see if any tickets were targeting the triggered state
+        #if they were, call validate on them
+        svalidated = []
+        mvalidated = []
+        lvalidated = []
+        vlongvalidated = []
+        for x in range(0, len(self.short)):
+            if self.short[x].statet == id:
+                validate(x)
+        for x in range(0, len(self.mid)):
+            if self.mid[x].statet == id:
+                validate(x)
+        for x in range(0, len(self.long)):
+            if self.long[x].statet == id:
+                validate(x)
+        for x in range(0, len(self.vlong)):
+            if self.vlong[x].statet == id:
+                validate(x)
+        #initialize new round of tickets for every state, for every clock
+        self.short.append(id)
+
+    def toss_expired(self):
+        #check for expired tickets, pop those which are
+        pass
+
+
+
+
 class ticket:
     def calc_expiry(self, type, dt):
         for x in range(0, len(dt)):
