@@ -1,3 +1,4 @@
+# UPDATE MAY 5 2022 - The causal model has been folded into oslo, which can be found [here](https://github.com/atomdog/oslo)
 # causalmodel
 
 All states can be described as either:
